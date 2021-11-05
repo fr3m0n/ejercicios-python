@@ -16,5 +16,8 @@ d = dict()
 for i in range(1, n+1):
 #Cuando recorrenos el diccionario vamos multiplicando el numero por si mismo
     d[i] = i*i
+    # d[i] = i***2
+    # d.update[i] = ({i: i**2})
+
 #Visualizamos el diccionario
 print(d)

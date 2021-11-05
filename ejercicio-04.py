@@ -14,6 +14,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 #Importar el modulo de matematicas para trabajar lo raiz
 import math
+H, C = 30,50
 #Introducir el número D
 n = input('Introduce un numero: ')
 #los separo por comas"," con un slpit
@@ -22,7 +23,7 @@ n = n.split(',')
 lista = []
 #Recorro los numeros introducidos
 for D in n:
-    R = round(math.sqrt(2*50*int(D)/30))  # Aplico la formula
+    R = round(math.sqrt(2*C*int(D)/H))  # Aplico la formula
     lista.append(R)  # Agrego el resultado a la lista
 #Imprimo la lista
 print(lista)
